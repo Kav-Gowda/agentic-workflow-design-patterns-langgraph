@@ -1,0 +1,31 @@
+# Ignore Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore virtual environments
+venv/
+.env/
+.env*/ 
+.venv/
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore model artifacts
+*.bin
+*.safetensors
+*.pt
+*.ckpt
+
+# Ignore large data files
+data/
+datasets/
+
+# Ignore colab temporary files
+.colab/
